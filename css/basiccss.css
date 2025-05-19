@@ -1,0 +1,261 @@
+@charset "utf-8";
+/* Importar fuente Poppins desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* ----------------------------------- */
+/* Reset / Base                       */
+/* ----------------------------------- */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.x-body {
+  overflow-x: hidden;
+}
+
+td {
+  vertical-align: top;
+}
+
+/* ----------------------------------- */
+/* Tipografía                          */
+/* ----------------------------------- */
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #575757;
+}
+.h11 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #222;
+}
+.h2, h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333333;
+    }
+
+.p, p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+.tx {
+  font-size: 1rem;
+  line-height: 1.1;
+  color: red;
+}
+.tx-green {
+  font-size: 1rem;
+  line-height: 1.1;
+  color: turquoise;
+}
+
+.title-h2{font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #333333;
+}
+.rem{font-size:0.74rem;}
+
+/* ----------------------------------- */
+/* Hipervínculos                       */
+/* ----------------------------------- */
+a {
+  color: #00ffff;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff00ff;
+  text-decoration: underline;
+}
+a:visited {
+  color: #ffcc00;
+}
+
+/* ----------------------------------- */
+/* Botones                             */
+/* ----------------------------------- */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-primary {
+  background-color: #5c6bc0;
+  color: white;
+}
+.btn-secondary {
+  background-color: #b0bec5;
+  color: white;
+}
+.botones {
+  padding: 10px 20px;
+  background-color: antiquewhite;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* ----------------------------------- */
+/* Contenedores y Tarjetas             */
+/* ----------------------------------- */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.capa {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #9E9E9E;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* ----------------------------------- */
+/* Formularios                         */
+/* ----------------------------------- */
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #555555;
+}
+input, textarea {
+  margin-top: 5px;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: vertical;
+}
+textarea {
+  min-height: 120px;
+}
+button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #007BFF;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 16px;
+}
+button:hover {
+  background-color: #0056b3;
+}
+
+/* ----------------------------------- */
+/* Navegación                          */
+/* ----------------------------------- */
+.nav-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #000000;
+  padding: 10px 0;
+  text-align: center;
+  border-top: 2px solid #1D1D1D;
+}
+
+/* ----------------------------------- */
+/* Imágenes                            */
+/* ----------------------------------- */
+.main-img {
+  width: 100%;
+  border: 20px;
+  max-height: 250px;
+  box-sizing: border-box;
+  object-fit: cover; margin: 20px 0; border-radius: 10px;
+}
+
+/* ----------------------------------- */
+/* Espaciado (margen y padding)        */
+/* ----------------------------------- */
+.m-20 {
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+.mt-1 { margin-top: 1rem; }
+.mt-2 { margin-top: 2rem; }
+.mb-1 { margin-bottom: 1rem; }
+.mb-2 { margin-bottom: 2rem; }
+
+.pd-10l { padding-left: 10px; }
+.pd-10u { padding-top: 10px; }
+.pd-10ew { padding: 10px; }
+
+/* ----------------------------------- */
+/* Alineación y texto                  */
+/* ----------------------------------- */
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-left { text-align: left; }
+.hyperlinks {
+  color: white;
+  text-align: center;
+}
+
+/* ----------------------------------- */
+/* Colores de fondo                    */
+/* ----------------------------------- */
+.bg-gray {
+  background-color: antiquewhite;
+}
+.bg-green {
+  background-color: #7fd663;
+}
+.bg-brown {
+  background-color: #c9ab8b;
+}
+.bg-black {
+  background-color: black;
+  color: white;
+}
+
+/* ----------------------------------- */
+/* Listas                              */
+/* ----------------------------------- */
+ul, ol {
+  display: block;
+  margin: 0;
+  padding-left: 10px;
+}
+li {
+  font-size: 1em;
+
+/* ----------------------------------- */
+/* Responsivo                          */
+/* ----------------------------------- */
+@media (max-width: 600px) {
+  .container {
+    margin: 20px;
+    padding: 20px;
+  }
+}
